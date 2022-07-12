@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    background-image: url(fondoimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.img{
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 20px;
+
+}
+
+.thirdDiv{
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    background-image: url(comida.jpg);
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+   
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+#spanId a {
+    text-decoration: none;
+    color: white;
+}
+
+#spanId a:hover{
+    color: rgba(0, 0, 255, 0.661);
+    text-decoration: underline;
+}
+
+.h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.henrry{
+    margin-bottom: 10px;
+}
+.divClass{
+    max-width: 430px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
